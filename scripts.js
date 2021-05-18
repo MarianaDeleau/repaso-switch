@@ -162,7 +162,7 @@ if (pin==='0808'){
             break;
         
         case 'cambiar pin':
-            const mensajePinNuevo=prompt('imgrese el PIN nuevo');
+            prompt('imgrese el PIN nuevo');
             const mensajePinViejo=prompt('ingrese PIN anterior');
             if(mensajePinViejo===pin){
                 alert('Operación confirmada');
